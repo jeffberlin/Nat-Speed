@@ -1,14 +1,11 @@
-html {
-	text-align: center;
-	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-}
-
 html, body {
 	width: 100%;
 	/*height: 100%;*/
 	margin: 0px;
 	padding: 0px;
 	overflow-x: hidden;
+	text-align: center;
+	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
 }
 
 .jumbotron {
@@ -43,7 +40,6 @@ html, body {
 	list-style-type: none;
 	letter-spacing: .75px;
 	font-size: 14pt;
-	width: 400px;
 	line-height: 40px;
 	margin-top: -48px;	
 	display: inline-block;
@@ -51,7 +47,7 @@ html, body {
 	margin-left: 0px;
 }
 
-#shop-features a {
+#shop-features a, .event-desc a, .project-desc a {
 	color: #ee1b24;
 }
 
@@ -69,8 +65,4 @@ html, body {
 	display: inline-block;
 	letter-spacing: .75px;
 	line-height: 35px;
-}
-
-.event-desc a, .project-desc a {
-	color: #ee1b24;
 }
