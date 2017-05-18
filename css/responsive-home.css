@@ -8,9 +8,12 @@
 	}
 	
 	.jumbotron {
-		height: 300px;
-		background-position: top center;
+		height: 450px;
 	}
+
+	/*#burnout {
+		background-position: ;
+	}*/
 
 	.whitespace li {
 		font-size: 12pt;
