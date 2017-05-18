@@ -15,7 +15,7 @@ html {
 	display: inline-block;
 	max-height: 220px;
 	width: 30%;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .service-desc {
@@ -34,5 +34,11 @@ html {
 	color: white;
 	background-color: rgba(0,0,0,.6);
 	font-weight: bold;
-	letter-spacing: .75px;
+	letter-spacing: .95px;
+}
+
+.option {
+	display: inline-block;
+	width: 25%;
+	padding-top: 50px;
 }

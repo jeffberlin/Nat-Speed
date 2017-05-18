@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="css/services.css">
         <link rel="stylesheet" href="css/social.css">
         <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/responsive-home.css">
        
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -29,10 +30,16 @@
         <![endif]-->
 
         <div class="page-header" id="header">
-            <h1><img src="img/natspd.png"></h1>
-            <h3>High Performance Automotive Center</h3>
+            <div class="container-fluid">
+                <div class="row">
+                    <h1><img class="img-responsive" src="img/natspd.png"></h1>
+                    <h3>High Performance Automotive Center</h3>
+                </div>
+            </div>
             
         </div>
+
+        <!-- NAVBAR -->
 
         <nav class="navbar navbar-inverse" id="nav">
           <div class="container-fluid">
@@ -57,61 +64,38 @@
                 <li><a href="#">The Team</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
               </ul>
-              <!-- <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </li>
-              </ul> -->
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
 
     <!-- BURNOUT PICTURE -->
-        <div class="jumbotron" id="burnout" style="background-image: url('img/burnout.jpg');">
-            <!-- <div class="container-fluid" style="width: 400px;">
-                <h2>Give us a call today!</h2>
-                <h3>(910) 332-5901</h3>
-            </div> -->
-        </div>
 
-        <div class="whitespace">
-            <img class="img-responsive title" src="img/theshop.png">
-            <h2 class="features-header">Features:</h2>
-            <ul id="shop-features">
-                <li>Retail Center & Showroom</li>
-                <li>High-Performace Garage</li>
-                <li><a href="#">All-Wheel-Drive Dyno</a></li>
-                <li><a href="#">Shows and Events</a></li>
-                <li>Gaming "Speed" Lounge</li>
-                <li>Car Club Support and New Ideas</li>
-            </ul>
+        <div class="jumbotron img-responsive" id="burnout" style="background-image: url('img/burnout.jpg');"><div class="container-fluid"></div></div>
+
+        <!-- SHOP FEATURES -->
+
+        <div class="container-fluid whitespace">
+            <div class="row">
+                <img class="img-responsive title" src="img/theshop.png">
+                <h2 class="features-header">Features:</h2>
+                <ul id="shop-features">
+                    <li>Retail Center & Showroom</li>
+                    <li>High-Performace Garage</li>
+                    <li><a href="#">All-Wheel-Drive Dyno</a></li>
+                    <li><a href="#">Shows and Events</a></li>
+                    <li>Gaming "Speed" Lounge</li>
+                    <li>Car Club Support and New Ideas</li>
+                </ul>
+            </div>
         </div>
 
     <!-- SHOP AREA -->
+
         <div class="jumbotron img-responsive" style="background-image: url('img/building2.jpg');"></div>
 
     <!-- EVENTS AREA -->
+
             <div class="whitespace">
                 <img class="img-responsive title" src="img/events.png">
                 <ul class="event-desc">   
@@ -120,9 +104,11 @@
             </div>
 
     <!-- EVENTS PICTURE -->
+
         <div class="jumbotron img-responsive" style="background-image: url('img/event.jpg');"></div>
 
     <!-- PROJECTS AREA -->
+
                 <div class="whitespace">
                     <img class="img-responsive title" src="img/projects.png">
                     <ul class="project-desc"> 
@@ -132,9 +118,11 @@
                 </div>
 
     <!-- PROJECTS PICTURE -->
+
         <div class="jumbotron img-responsive" id="projects" style="background-image: url('img/projects.jpg');"></div>
 
     <!-- SOCIAL MEDIA TAGS -->
+
         <div class="social">
             <ul>
                 <li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
@@ -144,6 +132,7 @@
         </div>
 
     <!-- FOOTER -->
+
         <footer class="container-fluid">
             <h6>© National Speed Inc. All Rights Reserved.</h6>
             <ul>
