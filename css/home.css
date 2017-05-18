@@ -1,0 +1,68 @@
+html {
+	text-align: center;
+	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+.jumbotron {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 600px;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -20px;
+}
+
+.whitespace {
+	height: 500px;
+	background-color: white;
+}
+
+.title {
+	width: 30%;
+	max-height: 220px;
+	text-align: center;
+	padding-top: 2%;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.features-header {
+	padding-bottom: 42px;
+}
+
+#shop-features {
+	text-align: center;
+	list-style-type: none;
+	letter-spacing: .75px;
+	font-size: 14pt;
+	width: 400px;
+	line-height: 40px;
+	margin-top: -48px;	
+	display: inline-block;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+#shop-features a {
+	color: #ee1b24;
+}
+
+.event-desc, .project-desc {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.event-desc li, .project-desc li {
+	text-align: center;
+	list-style-type: none;
+	font-size: 14pt;
+	padding-top: 14px;
+	width: 450px;
+	display: inline-block;
+	letter-spacing: .75px;
+	line-height: 35px;
+}
+
+.event-desc a, .project-desc a {
+	color: #ee1b24;
+}

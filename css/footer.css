@@ -1,0 +1,31 @@
+footer {
+	background-color: black;
+	width: 100%;
+	margin-top: -30px;
+	border-top: .2px solid #ee1b24;
+}
+
+footer h6 {
+	color: white;
+	float: left;
+}
+
+footer ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 1%;
+}
+
+footer ul {
+	text-align: right;
+	padding: 1%;
+}
+
+footer a {
+	color: white;
+	vertical-align: middle;
+}
+
+footer a:hover {
+	color: #ee1b24;
+}

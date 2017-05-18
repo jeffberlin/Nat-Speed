@@ -1,0 +1,21 @@
+.navbar .navbar-nav {
+	float: none;
+	display: inline-block;
+	top-margin: 150px;
+}
+
+#bs-example-navbar-collapse-1 a {
+	color: white;
+	font-size: 12pt;
+	letter-spacing: 1px;
+}
+
+#bs-example-navbar-collapse-1 a:hover {
+	border-right: 1px solid #ee1b24;
+	border-left: 1px solid #ee1b24;
+	background-color: black;
+}
+
+#bs-example-navbar-collapse-1 a:active {
+	transform: translateY(2px);
+}

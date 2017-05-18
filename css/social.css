@@ -1,0 +1,48 @@
+/* SOCIAL MEDIA TAGS */
+
+.social {
+  text-align: left;
+  margin-left: -35px;
+/*  margin-top: -350px;
+*/  position: fixed;
+  top: 50%;
+
+}
+
+.social ul {
+  overflow: auto;
+  display: inline-block;
+}
+ 
+.social ul li {
+  list-style: none;
+}
+
+.social ul li a i {
+  background: black;
+  border: 1px solid #ee1b24;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20pt;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 17%;
+}
+
+.fa-facebook:hover {
+  background: #3b5998;
+}
+
+.fa-instagram:hover {
+  background: #7232bd;
+}
+
+.fa-youtube:hover {
+  background-color: #b31217;
+}
+
+.social ul li a i:hover {
+  border: none;
+}

@@ -1,0 +1,38 @@
+html {
+	text-align: center;
+	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+}
+
+.jumbotron {
+	margin-top: -20px;
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 600px;
+}
+
+.title {
+	display: inline-block;
+	max-height: 220px;
+	width: 30%;
+	padding-bottom: 10px;
+}
+
+.service-desc {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.service-desc li {
+	display: inline-block;
+	width: 650px;
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style-type: none;
+	padding: 10px;
+	font-size: 12pt;
+	color: white;
+	background-color: rgba(0,0,0,.6);
+	font-weight: bold;
+	letter-spacing: .75px;
+}

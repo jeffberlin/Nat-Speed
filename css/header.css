@@ -1,0 +1,11 @@
+.page-header {
+	padding-bottom: 0px;
+	border-bottom: none;
+	height: 15	0px;
+	margin-top: 10px;
+}
+
+.page-header h3 {
+	letter-spacing: .75px;
+	vertical-align: middle;
+}
